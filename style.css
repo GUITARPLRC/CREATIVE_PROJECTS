@@ -16,6 +16,7 @@ body {
 	margin:auto;
 	transform:rotate(45deg);
 	display:flex;
+	background:url(myLogo.ico);
 }
 .container {
 	width:25%;
