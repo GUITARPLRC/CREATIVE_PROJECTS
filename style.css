@@ -15,10 +15,10 @@ body a {
 .shape {
 	width:400px;
 	height:400px;
-	box-shadow:0 0 100px #000;
-	border:1px solid #fff;
+	box-shadow:0 0 50px #000;
+	border:1px solid #bdc3c7;
 	margin:auto;
-	transform:rotate(45deg);
+	transform:rotate(45deg) translateZ(-200px);
 	display:flex;
 	background:url(myLogo.ico);
 }
@@ -69,15 +69,12 @@ section:hover {
 #purple:hover {
 	opacity:1;
 }
-/*
+
 .link {
 	transition:all 0.5s;
 }
 .link:hover {
-	transform:scale(4);
-	top:0;
-	left:0;
-	position:absolute;
-	z-index:100;
+	box-shadow:0 0 1px #000, 1px 1px 1px #000, 2px 2px 1px #000, 3px 3px 1px #000, 4px 4px 1px #000, 5px 5px 1px #000, 6px 6px 1px #000, 7px 7px 1px #000;
+	transform:translateX(-7px) translateY(-7px);
+	z-index:10;
 }
-*/
