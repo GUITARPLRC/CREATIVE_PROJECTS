@@ -1,5 +1,5 @@
 wow = new WOW({
-	mobile:false;
+	mobile:false
 })
 
 wow.init();
