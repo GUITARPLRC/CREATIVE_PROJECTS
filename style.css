@@ -8,9 +8,7 @@ body {
 	background-color:#ecf0f1;
 	margin-top:120px;
 	font-family:Helvetica, sans-serif;
-}
-body a {
-	color:#000;
+	overflow:hidden;
 }
 .shape {
 	width:400px;
@@ -18,9 +16,13 @@ body a {
 	box-shadow:0 0 50px #000;
 	border:1px solid #bdc3c7;
 	margin:auto;
-	transform:rotate(45deg) translateZ(-200px);
+	transform:rotate(45deg);
+	display:-ms-flexbox;
 	display:flex;
 	background:url(myLogo.ico);
+}
+.shape a {
+	color:#000;
 }
 .container {
 	width:25%;
@@ -37,9 +39,6 @@ section p {
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%) rotate(-45deg);
-}
-section:hover {
-	color:#fff;
 }
 #green {
 	background-color:#1abc9c;
@@ -74,7 +73,45 @@ section:hover {
 	transition:all 0.5s;
 }
 .link:hover {
+	color:#fff;
 	box-shadow:0 0 1px #000, 1px 1px 1px #000, 2px 2px 1px #000, 3px 3px 1px #000, 4px 4px 1px #000, 5px 5px 1px #000, 6px 6px 1px #000, 7px 7px 1px #000;
 	transform:translateX(-7px) translateY(-7px);
 	z-index:10;
+}
+
+.projects {
+	height:100vh;
+	width:100%;
+	margin-top:200px;
+	text-align:center;
+	background-color:#e74c3c;
+}
+.projects ul li {
+	
+}
+.projects ul li a {
+	
+}
+h2 {
+}
+.sample {
+	text-align:center;
+	width:33%;
+	display:inline-block;
+}
+.sample a {
+	
+}
+.contact {
+	height:100vh;
+	width:100%;
+	margin-top:200px;
+	background-color:#3498db;
+}
+
+.about {
+	height:100vh;
+	width:100%;
+	margin-top:200px;
+	background-color:#1abc9c;
 }

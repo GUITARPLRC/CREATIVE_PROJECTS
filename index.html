@@ -1,12 +1,16 @@
-<HTML>
-<HEAD>
+<!doctype html>
+<html>
+<head>
 
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css"> <!-- ANIMATE.CSS CDN -->
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-</HEAD>
-<BODY>
+</head>
+<body>
 
-	<div class="shape">
+	<section class="shape wow fadeIn" id="home">
 		<div class="container">
 		
 			<section id="green"></section>
@@ -19,9 +23,9 @@
 		<div class="container">
 		
 			<section id="purple"></section>
-			<section id="red" class="link">
+			<a href="#projects"><section id="red" class="link">
 				<p>PROJECTS</p>
-			</section>
+			</section></a>
 			<a href="https://www.github.com/guitarplrc"><section id="blue" class="link">
 				<p>GITHUB</p>
 			</section></a>
@@ -34,9 +38,9 @@
 			<a href="https://www.linkedin.com/in/charles-reynolds-a41b53bb"><section id="blue" class="link">
 				<p>LINKEDIN</p>
 			</section></a>
-			<section id="red" class="link">
+			<a href="#contact"><section id="red" class="link">
 				<p>CONTACT</p>
-			</section>
+			</section></a>
 			<section id="purple"></section>
 			
 		</div>
@@ -45,12 +49,72 @@
 			<section id="purple"></section>
 			<section id="red"></section>
 			<section id="blue"></section>
-			<section id="green" class="link">
+			<a href="#about"><section id="green" class="link">
 				<p>ABOUT</p>
-			</section>
+			</section></a>
 			
 		</div>
-	</div>
+	</section>
+	
+	<section class="projects wow fadeIn" id="projects">
+	
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="https://www.github.com/guitarplrc">GITHUB</a></li>
+			<li><a href="https://www.linkedin.com/in/charles-reynolds-a41b53bb">LINKEDIN</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+			<li><a href="#about">ABOUT</a></li>
+		</ul>
+		
+		<h2>PROJECTS</h2>
+	
+		<div class="sample">
+			
+		</div>
+		<div class="sample">
+			
+		</div>
+		<div class="sample">
+			
+		</div>
+		<div class="sample">
+			
+		</div>
+		<div class="sample">
+			
+		</div>
+		<div class="sample">
+			
+		</div>
+	
+	</section>
+	
+	<section class="about wow fadeIn" id="about">
+	
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#projects">PROJECTS</a></li>
+			<li><a href="https://www.github.com/guitarplrc">GITHUB</a></li>
+			<li><a href="https://www.linkedin.com/in/charles-reynolds-a41b53bb">LINKEDIN</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	
+	</section>
+	
+	<section class="contact wow fadeIn" id="contact">
+		
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#projects">PROJECTS</a></li>
+			<li><a href="https://www.github.com/guitarplrc">GITHUB</a></li>
+			<li><a href="https://www.linkedin.com/in/charles-reynolds-a41b53bb">LINKEDIN</a></li>
+			<li><a href="#about">ABOUT</a></li>
+		</ul>
+		
+	</section>
 
-</BODY>
-</HTML>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> <!-- WOW.JS CDN -->
+	<script src="script.js"></script>
+</body>
+</html>
