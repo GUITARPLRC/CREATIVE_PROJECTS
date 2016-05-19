@@ -6,8 +6,8 @@ body {
 	width:100%;
 	background-color:#ecf0f1;
 	margin-top:120px;
-	font-family:Helvetica, sans-serif;
-	box-sizing:border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:16px;
 }
 
 
@@ -15,30 +15,33 @@ body {
 
 section {
 	width:100%;
-	height:25%;
-	position:relative;
+	height:500px;
+}
+
+.main {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
 }
 
 
 section ul {
+	width:20%;
 	height:100%;
 	float:left;
+	border-right:1px solid rgba(0,0,0,0.9);
 }
 section ul li {
-	margin:30% 0;
+	margin:20% 0;
+	font-size:1em;
+	list-style:none;
 }
 section ul li a {
 	text-decoration:none;
 	color:#fff;
-	margin:0 50px;
 }
 section ul li a:hover {
 	border-bottom:1px solid #fff;
-}
-
-
-
-.side{
 }
 
 
@@ -64,8 +67,13 @@ section ul li a:hover {
 	width:100%;
 	height:100%;
 }
-.container section p {
-	font-size:20px;
+.container div {
+	width:100%;
+	height:25%;
+	position:relative;
+}
+.container div p {
+	font-size:1.618em;
 	position:absolute;
 	top:50%;
 	left:50%;
@@ -118,17 +126,50 @@ section ul li a:hover {
 
 
 
+
+.about {
+	height:100%;
+	width:100%;
+	background-color:#1abc9c;
+	text-align:center;
+	color:#fff;
+	padding:6% 0;
+	margin-top:170px;
+}
+.about h2 {
+	font-size:2.618em;
+	margin-bottom:5%;
+	text-shadow:0 0 #888, 1px 1px #888, 2px 2px #888;
+}
+.about img {
+	width:150px;
+	border-radius:50%;
+	margin-bottom:5%;
+	box-shadow:0 0 10px #888, 1px 1px 10px #888, 2px 2px 10px #888;
+}
+.about article {
+}
+.about article p {
+	margin:0 auto;
+	font-size:1em;
+	width:50%;
+}
+
+
+
+
 .projects {
 	height:100%;
 	width:100%;
-	margin-top:200px;
 	text-align:center;
 	background-color:#2c3e50;
+	padding:6% 0;
 }
 .projects h2 {
-	margin:50px 0;
 	color:#fff;
-	font-size:30px;
+	font-size:2.618em;
+	margin-bottom:10%;
+	text-shadow:0 0 #888, 1px 1px #888, 2px 2px #888;
 }
 .projects ul li {
 	
@@ -140,7 +181,6 @@ section ul li a:hover {
 	text-align:center;
 	width:33%;
 	display:inline-block;
-	border-radius:50%;
 }
 .sample a {
 	
@@ -149,41 +189,29 @@ section ul li a:hover {
 
 
 
-.about {
-	height:100%;
-	width:100%;
-	background-color:#1abc9c;
-	text-align:center;
-	color:#fff;
-}
-.about img {
-	width:150px;
-	border-radius:50%;
-}
-.about h2 {
-}
-.about p {
-}
-
-
-
 
 .contact {
 	width:100%;
-	height:100%;
 	background-color:#3498db;
 	text-align:center;
+	color:#fff;
+	padding:6% 0;
 }
 .contact h2 {
-	font-size:30px;
-	margin-bottom:50px;
+	font-size:2.618em;
+	margin:0 auto 8% auto;
+	text-shadow:0 0 #222, 1px 1px #222, 2px 2px #222;
+}
+.contact h3 {
+	font-size:1.618em;
+	margin-bottom:2%;
 }
 .contact form {
-	background-color:rgba(0,0,0,0.3);
 	width:50%;
-	margin:50px auto 0 auto;
+	background-color:rgba(0,0,0,0.3);
+	margin:0 auto;
+	padding:2% 0;
 	border-radius:10px;
-	padding:20px 0;
 	box-shadow:0 0 40px #000;
 	border:3px solid #fff;
 }
@@ -191,21 +219,21 @@ section ul li a:hover {
 	width:75%;
 	border-radius:10px;
 	padding:5px 0 5px 10px;
-	margin-bottom:10px;
+	margin-bottom:2%;
 	outline:none;
 }
 .contact input[type=email] {
 	width:75%;
 	border-radius:10px;
 	padding:5px 0 5px 10px;
-	margin-bottom:10px;
+	margin-bottom:2%;
 	outline:none;
 }
 .contact textarea {
 	width:75%;
 	border-radius:10px;
 	padding:5px 0 5px 10px;
-	margin-bottom:10px;
+	margin-bottom:2%;
 	outline:none;
 	font-size:16px;
 }
@@ -213,4 +241,8 @@ section ul li a:hover {
 	padding:5px 10px;
 	border-radius:10px;
 	outline:none;
+	color:#fff;
+	background-color:#2c3e50;
+	border:none;
+	box-shadow:0 0 10px #fff;
 }
