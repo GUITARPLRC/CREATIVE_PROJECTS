@@ -4,12 +4,48 @@
 }
 body {
 	width:100%;
-	overflow:hidden;
 	background-color:#ecf0f1;
 	margin-top:120px;
 	font-family:Helvetica, sans-serif;
-	overflow:hidden;
 }
+
+
+
+
+section {
+	width:100%;
+	height:25%;
+	position:relative;
+}
+
+
+section ul {
+	height:100%;
+	float:left;
+}
+section ul li {
+	margin:30% 0;
+}
+section ul li a {
+	text-decoration:none;
+	color:#fff;
+	margin:0 50px;
+}
+section ul li a:hover {
+	border-bottom:1px solid #fff;
+}
+
+
+
+
+.main {
+	width:100%;
+	height:100%;
+}
+
+
+
+
 .shape {
 	width:400px;
 	height:400px;
@@ -24,27 +60,11 @@ body {
 .shape a {
 	color:#000;
 }
+
+
 .container {
-	width:25%;
-	height:100%;
-}
-section {
 	width:100%;
-	height:25%;
-	position:relative;
-}
-section ul li {
-	display:inline-block;
-	margin:20px 0;
-}
-section ul li a {
-	text-decoration:none;
-	color:#fff;
-	padding-bottom:10px;
-	margin:0 50px;
-}
-section ul li a:hover {
-	border-bottom:1px solid #fff;
+	height:100%;
 }
 .container section p {
 	font-size:20px;
@@ -53,6 +73,11 @@ section ul li a:hover {
 	left:50%;
 	transform:translate(-50%,-50%) rotate(-45deg);
 }
+
+
+
+
+
 #green {
 	background-color:#1abc9c;
 	opacity:0.5;
@@ -92,12 +117,15 @@ section ul li a:hover {
 	z-index:10;
 }
 
+
+
+
 .projects {
-	height:100vh;
+	height:100%;
 	width:100%;
 	margin-top:200px;
 	text-align:center;
-	background-color:#e74c3c;
+	background-color:#2c3e50;
 }
 .projects h2 {
 	margin:50px 0;
@@ -119,10 +147,32 @@ section ul li a:hover {
 .sample a {
 	
 }
-.contact {
-	height:100vh;
+
+
+
+
+.about {
+	height:100%;
 	width:100%;
-	margin:200px 0;
+	background-color:#1abc9c;
+	text-align:center;
+	color:#fff;
+}
+.about img {
+	width:150px;
+	border-radius:50%;
+}
+.about h2 {
+}
+.about p {
+}
+
+
+
+
+.contact {
+	width:100%;
+	height:100%;
 	background-color:#3498db;
 	text-align:center;
 }
@@ -165,20 +215,4 @@ section ul li a:hover {
 	padding:5px 10px;
 	border-radius:10px;
 	outline:none;
-}
-.about {
-	height:100vh;
-	width:100%;
-	background-color:#1abc9c;
-	text-align:center;
-	color:#fff;
-}
-.about img {
-	width:150px;
-	border-radius:50%;
-	margin:50px 0;
-}
-.about h2 {
-}
-.about p {
 }
