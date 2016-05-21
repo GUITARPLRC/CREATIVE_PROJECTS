@@ -160,7 +160,6 @@ section ul li a:hover {
 .projects {
 	height:100%;
 	width:100%;
-	text-align:center;
 	background-image:url("images/workspace.png");
 	background-size:100% 100%;
 	background-repeat:no-repeat;
@@ -170,25 +169,36 @@ section ul li a:hover {
 .projects h2 {
 	color:#fff;
 	font-size:2.618em;
-	margin-bottom:10%;
+	margin-bottom:6%;
 	text-shadow:0 0 #888, 1px 1px #888, 2px 2px #888;
-}
-.projects ul li {
-	
-}
-.projects ul li a {
-	
+	text-align:center;
 }
 .sample {
-	text-align:center;
-	width:33%;
+	width:80%;
 	display:inline-block;
+	margin-bottom:20px;
+	padding:2%;
+	background-color:rgba(0,0,0,0.5);
+	border-radius:10px;
+	border:2px solid #fff;
+	color:#fff;
 }
 .sample a {
 	
 }
-
-
+.sample img {
+	width:275px;
+	height:139px;
+	padding-right:20px;
+	border-right:1px solid #fff;
+	float:left;
+}
+.sample h4 {
+	
+}
+.sample h5 {
+	
+}
 
 
 
@@ -201,7 +211,7 @@ section ul li a:hover {
 }
 .contact h2 {
 	font-size:2.618em;
-	margin:0 auto 8% auto;
+	margin:0 auto 6% auto;
 	text-shadow:0 0 #222, 1px 1px #222, 2px 2px #222;
 }
 .contact h3 {
@@ -222,6 +232,7 @@ section ul li a:hover {
 	padding:5px 0 5px 10px;
 	margin-bottom:2%;
 	outline:none;
+	border:none;
 }
 .contact input[type=email] {
 	width:75%;
@@ -229,6 +240,7 @@ section ul li a:hover {
 	padding:5px 0 5px 10px;
 	margin-bottom:2%;
 	outline:none;
+	border:none;
 }
 .contact textarea {
 	width:75%;
