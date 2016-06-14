@@ -181,9 +181,10 @@ section {
 }
 .sample h4 {
 	font-size:1.5em;
+  margin-bottom:1%;
 }
 .sample h5 {
-	
+  margin-bottom:2%;
 }
 .sample p {
 	font-size:1em;
@@ -271,6 +272,14 @@ footer section ul li a {
 }
 footer section ul li a:hover {
   color:#000;
+}
+
+@media (max-width:600px) {
+  
+  .sample img {
+    border-right:none;
+  }
+  
 }
 
 @media (max-width:400px) {
