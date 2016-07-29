@@ -142,11 +142,11 @@ section {
 .projects {
 	height:100%;
 	width:100%;
-	background-image:url("images/workspace.png");
-	background-size:100% 100%;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
 	padding:6% 0;
+	background-image:url("images/workspace.png");
+    background-size:100% 100%;
+	background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 .projects h2 {
 	color:#fff;
@@ -198,10 +198,11 @@ section {
 
 .contact {
 	width:100%;
+  height:auto;
 	background-color:#3498db;
 	text-align:center;
 	color:#fff;
-	padding:5% 0;
+	padding:5% 0 7% 0;
 }
 .contact h2 {
 	font-size:2.618em;
@@ -213,7 +214,7 @@ section {
 	margin-bottom:2%;
 }
 .contact form {
-	width:50%;
+	width:60%;
 	background-color:rgba(0,0,0,0.3);
 	margin:0 auto;
 	padding:2% 0;
@@ -303,6 +304,10 @@ footer section ul li a:hover {
   }
   .sample img {
     width:50%;
+  }
+  
+  .contact form {
+    widht:80%;
   }
   
 }

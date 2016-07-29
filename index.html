@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+  
+  <link rel="icon" href="images/myLogo.ico">
 
 	<title>Charles Reynolds | Front End Web Developer</title>
 
@@ -15,7 +17,7 @@
 </head>
 <body>
 
-  <nav class="r-nav" id="home"> <!-- small screen nav -->
+  <nav class="r-nav"> <!-- small screen nav -->
     
     <ul>
       <li><a href="#about">ABOUT</a></li>
@@ -27,7 +29,7 @@
      
   </nav>
 
-	<section class="shape wow fadeIn" id="home">
+	<section class="shape wow fadeIn">
 		<div class="container">
 		
 			<a href="#about"><div id="green" class="link">
@@ -82,7 +84,7 @@
         
 				<p>I am a freelance web developer living outside of Chicago, IL. I have a passion for writing clean code and
         learning about new technologies. I primarily work with front-end technologies 
-        including HTML5, CSS3, Javascript, jQuery and Bootstrap. I am currently interested in learning about front end pre-processors.</p>
+        including HTML5, CSS3, Javascript, jQuery and Bootstrap. I am currently interested in learning about front-end pre-processors.</p>
         
         <p>When I am away form my computer I enjoy spending time with my family, watching movies, and playing Xbox.</p>
         
@@ -175,14 +177,15 @@
 	
 	<section class="contact" id="contact">
 		<div class="main wow fadeIn">
-			<h2>CONTACT</h2>
-			
-			<form action="mail.php" method="POST">
+			<h2>CONTACT ME</h2>
+      
+			<form action="mail.php" role="form" method="POST" id="myForm">
 				<h3>Leave a Message After the Beep...</h3>
 				<input type="text" name="name" placeholder="NAME" maxlength="30" required></input><br />
 				<input type="email" name="email" placeholder="EMAIL" maxlength="30" required></input><br />
 				<textarea name="message" cols="22" rows="5" maxlength="400" placeholder="SAY HELLO" style="resize:none;" required></textarea><br />
-				<input type="submit" value="Beep"></input>
+        <input type="text" name="human" id="human" placeholder="What is 2 x 2?" maxlength="2"></input><br />
+				<input type="submit" value="Beep" name="action" id="submit"></input>
 			</form>
 		</div>
 		
@@ -191,15 +194,11 @@
   <footer>
   
     <section>
-    
-    
-    
     </section>
     
     <section>
     
       <ul>
-        <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#projects">WORK</a></li>
         <li><a href="https://www.github.com/guitarplrc" target="_blank">GITHUB</a></li>
@@ -212,8 +211,8 @@
 
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> <!-- WOW.JS CDN -->
-	<script scr="script.js"></script> <!-- CUSTOM SCRIPT -->
-	<script>
+	<script src="script.js"></script> <!-- CUSTOM SCRIPT -->
+	<script> <!-- Google Analytics -->
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -221,6 +220,6 @@
 
 		ga('create', 'UA-64675509-1', 'auto');
 		ga('send', 'pageview');
-	</script> <!-- Google Analytics -->
+	</script>
 </body>
 </html>
