@@ -27,8 +27,8 @@ $(function() {
     }
   }); // SMOOTH SCROLL END
 	
-	$("#project a").hover( function(){
-		var randomColorArray =["red","green","yellow","orange","purple",""];
+	$("#projects > div > a").hover( function(){
+		var randomColorArray =["red","green","yellow","orange","purple","blue"];
 		var randomColorChoice = Math.floor(Math.random() * 6);
 		$("#projects > div").css("backgroundColor", randomColorArray[randomColorChoice]);
 	});
