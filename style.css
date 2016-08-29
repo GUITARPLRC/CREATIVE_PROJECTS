@@ -103,7 +103,7 @@ section {
 }
 
 
-.about {
+#about {
 	background-color:#1abc9c;
 	color:#fff;
 	height:100%;
@@ -140,26 +140,23 @@ section {
 
 
 .projects {
-	background-image:url("images/workspace.png");
-  background-size:100% 100%;
-	background-repeat:no-repeat;
-  background-attachment:fixed;
-  -webkit-overflow-scolling:touch;
+	background-image:url(images/project_background.jpg);
 	height:100%;
-	padding:6% 0;
 	width:100%;
 }
+
 .projects h2 {
-	color:#fff;
+	color:#000;
 	font-size:2.618em;
-	text-shadow:0 0 #888, 1px 1px #888, 2px 2px #888;
+	padding:6% 0;
+	text-shadow:0 0 #fff, 1px 1px #fff;
 	text-align:center;
 }
 .projects h3 {
-  color:#fff;
+  color:#000;
   font-size:1.5em;
   margin-bottom:5%;
-  text-shadow:0 0 #888, 1px 1px #888, 2px 2px #888;
+  text-shadow:0 0 #fff, 1px 1px #fff;
 }
 .sample {
 	background-color:rgba(0,0,0,0.5);
@@ -177,7 +174,8 @@ section {
   text-decoration:none;
 }
 .sample:hover {
-  background-color:rgba(256,256,256,0.1);
+  background-color:#666;
+	border:2px solid #000;
 }
 .sample img {
   height:124px;

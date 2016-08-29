@@ -7,10 +7,9 @@ wow = new WOW({
 wow.init();
     
     
-// SMOOTH SCROLLING
 $(function() {
   
-  $('a[href*="#"]:not([href="#"])').click(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() { // SMOOTH SCROLLING START
     
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       
@@ -26,6 +25,13 @@ $(function() {
         return false;
       }
     }
-  });
+  }); // SMOOTH SCROLL END
+	
+	$("#project a").hover( function(){
+		var randomColorArray =["red","green","yellow","orange","purple",""];
+		var randomColorChoice = Math.floor(Math.random() * 6);
+		$("#projects > div").css("backgroundColor", randomColorArray[randomColorChoice]);
+	});
+	
   
 });

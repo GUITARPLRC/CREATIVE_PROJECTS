@@ -17,13 +17,10 @@ else if ($email === "") {
 } // email field empty
 else if ($message === "") {
   echo "<div>Please include a message.</div>"
-}
-else if ($human != "4") {
-  echo "<div>Sorry, your multiplication needs some work.</div>";
-} // custom captcha answer
+} // message field empty
 else {
   mail($me, $subject, $content, $header) or die("Error!");
   echo "Thank you! Your message has been sent.";
-}
+} // SUCCESS
 
 ?>
