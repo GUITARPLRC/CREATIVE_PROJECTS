@@ -6,7 +6,6 @@ wow = new WOW({
 
 wow.init();
     
-    
 $(function() {
   
   $('a[href*="#"]:not([href="#"])').click(function() { // SMOOTH SCROLLING START
@@ -27,10 +26,13 @@ $(function() {
     }
   }); // SMOOTH SCROLL END
 	
-	$("#projects > div > a").hover( function(){
-		var randomColorArray =["red","green","yellow","orange","purple","blue"];
-		var randomColorChoice = Math.floor(Math.random() * 6);
-		$("#projects > div").css("backgroundColor", randomColorArray[randomColorChoice]);
+	$(".sample").on("mouseenter", function(){
+		var randomColorArray =["255,0,0,0.2", "0,255,0,0.2", "255,255,0,0.2", "255,153,51,0.2", "102,102,204,0.2", "0,0,255,0.2", "255,0,255,0.2", "0,255,255,0.2"];
+		var randomColorChoice = Math.floor(Math.random() * 8);
+		$("#projects > div").css("backgroundColor", "rgba(" + randomColorArray[randomColorChoice]);
+	});
+	$(".sample").on("mouseleave", function(){
+		$("#projects > div").css("backgroundColor", "rgba(0,0,0,0.2");
 	});
 	
   
